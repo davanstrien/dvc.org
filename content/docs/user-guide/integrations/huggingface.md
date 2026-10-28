@@ -81,8 +81,9 @@ $ dvc import https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0 sd_
 [Storage Buckets](https://huggingface.co/docs/hub/storage-buckets) are mutable
 object storage on the Hugging Face Hub with an
 [S3-compatible API](https://huggingface.co/docs/hub/storage-buckets-s3), so a
-bucket can be used as a DVC [remote](/doc/user-guide/data-management/remote-storage/amazon-s3).
-Set `endpointurl` to `https://s3.hf.co/<NAMESPACE>` (your Hugging Face user or
+bucket can be used as a DVC
+[remote](/doc/user-guide/data-management/remote-storage/amazon-s3). Set
+`endpointurl` to `https://s3.hf.co/<NAMESPACE>` (your Hugging Face user or
 organization name) and use the bare bucket name in the `s3://` URL:
 
 ```cli
